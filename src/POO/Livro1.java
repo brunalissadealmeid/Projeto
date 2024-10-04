@@ -1,6 +1,6 @@
 package POO;
 
-public class Main1 extends Livro{
+public class Livro1 extends Livro{
     public static void main (String[] args) {
         Livro livro1 = new Livro();
         livro1.titulo = "Todas as Suas (Im)Perfeições";

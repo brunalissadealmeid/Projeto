@@ -1,6 +1,6 @@
 package POO;
 
-public class Main extends Estudante {
+public class Estudante1 extends Estudante {
     public static void main (String[] args) {
         Estudante estudante1 = new Estudante();
         estudante1.nome = "Sophia";
