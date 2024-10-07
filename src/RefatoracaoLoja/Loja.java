@@ -1,5 +1,7 @@
 package RefatoracaoLoja;
 
+import java.util.Scanner;
+
 class Loja extends Produto {
     private static final Scanner scanner = new Scanner(System.in);
     private final Map<Integer, Produto> produtos = new HashMap<>();
