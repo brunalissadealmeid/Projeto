@@ -38,7 +38,7 @@ public class Elevador {
         }
     }
 
-    void mostraStatus() {
+    void mostrarStatus() {
         System.out.println("Andar atual: " + andarAtual + "; Número de pessoas: " + pessoasPresentes);
     }
 }

@@ -13,6 +13,6 @@ public class Elevador1 extends Elevador{
         elevador1.descer();
         elevador1.entrar();
         elevador1.sair();
-        elevador1.mostraStatus();
+        elevador1.mostrarStatus();
     }
 }
