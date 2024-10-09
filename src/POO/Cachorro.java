@@ -11,10 +11,17 @@ public class Cachorro {
         System.out.println("Au au");
     }
 
-    void comer() {
+    void comer(double valor) {
+        if (peso > 5) {
+            peso += valor;
+            System.out.println(peso);
+        }
     }
 
-    void caminhar() {
-
+    void caminhar(double valor) {
+        if (peso > 30) {
+            peso -= valor;
+            System.out.println(valor);
+        }
     }
 }

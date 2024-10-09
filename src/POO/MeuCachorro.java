@@ -10,7 +10,7 @@ public class MeuCachorro extends Cachorro{
         meuCachorro1.peso = 22;
 
         meuCachorro1.latir();
-        meuCachorro1.comer();
-        meuCachorro1.caminhar();
+        meuCachorro1.comer(2);
+        meuCachorro1.caminhar(1);
     }
 }
